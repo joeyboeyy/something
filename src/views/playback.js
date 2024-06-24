@@ -190,7 +190,7 @@ const Playback = (props) => {
     function playSong(songId) {
       var audioPlayer = document.getElementById("audio-player");
       var audioSource = document.getElementById("audio-source");
-      audioSource.src = \`assets/\${songId}.mp3\`;
+      audioSource.src = \`public/assets/\${songId}.mp3\`;
       audioPlayer.load();
       audioPlayer.play();
     }
