@@ -2,7 +2,7 @@
   "canisters": {
     "www": {
       "frontend": {
-        "entrypoint": "src/index.js"
+        "entrypoint": "src/views/home.js"
       },
       "source": [
         "src",
